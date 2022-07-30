@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aimfit hub</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Rubik+Moonrocks&family=Smooch&family=Splash&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playball&family=Rubik+Moonrocks&family=Smooch&family=Splash&display=swap"
+        rel="stylesheet">
+    <style>
+        /* css reset */
+        body {
+            /* font-family: 'Montserrat', sans-serif; */
+            font-family: 'Splash', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/vegeta.jpg);
+            color: white;
+            background-repeat: no-repeat;
+            /* background-position: center  ; */
+
+            background-size: 1592px 750px;
+        }
+
+        .left {
+            /* border: 2px solid black; */
+            display: inline-block;
+            position: absolute;
+            left: 19px;
+            top: 12px;
+        }
+
+        .left img {
+            width: 134px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 36px;
+            font-size: 23px;
+        }
+
+        .mid {
+            /* border: 2px solid blue; */
+            position: block;
+            width: 900px;
+            margin: 12px auto;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 19px;
+            top: 12px
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 23px;
+            margin: 37px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .btn {
+            border: 2px solid blue;
+            color: white;
+            background: black;
+            margin: 0px 9px;
+            padding: 6px 7px;
+            cursor: pointer;
+            border-radius: 10px;
+
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn:hover {
+
+            color: rgb(55, 189, 22);
+            text-decoration: underline;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 140px 326px;
+            padding: 48px 41px;
+            border-radius: 32px;
+            width: 30%;
+        }
+
+        .formgroup input {
+            text-align: center;
+            border: 2px solid white;
+            padding: 1px 16px;
+            margin: 6px 75px;
+            width: 61%;
+            font-size: 18px;
+            border-radius: 18px;
+        }
+
+        .container button {
+            display: block;
+            width: 28%;
+            margin: 23px auto;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="img/goku.jpg" alt="">
+            <div>AimFit Hub</div>
+        </div>
+        <!-- right for navigation bar -->
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://www.urbanpro.com/gym-fees">Fee Structure</a></li>
+                    <li><a href="
+                        https://www.calculator.net/bmi-calculator.html">BMI Calculaor</a></li>
+                    <li><a href="https://betterhumans.pub/the-best-time-of-day-to-hit-the-gym-may-surprise-you-f73a55dbe1c1">Timings</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- right for buttons and etc -->
+        <div class="right">
+            <button class="btn"> Contact us</button><button class="btn"> Email us</button>
+            
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the Best Gym
+        </h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Date Of Birth">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Phone Number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Address">
+            </div>
+            <div class="formgroup">
+                <button class="btn "> submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
